@@ -1,0 +1,64 @@
+/* Couleurs */
+:root {
+    --indigo: #4b0082;
+    --white: #ffffff;
+    --red: #ff0000;
+    --green: #00ff00;
+    --yellow: #ffff00;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: var(--indigo);
+    background-color: var(--white);
+}
+
+header {
+    background-color: var(--indigo);
+    color: var(--white);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.hero {
+    background-color: var(--indigo);
+    color: var(--white);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-button {
+    background-color: var(--red);
+    color: var(--white);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.highlight {
+    background-color: var(--green);
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--yellow);
+    text-align: center;
+    padding: 1rem;
+}
